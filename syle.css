@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url("ASSETS/IMG/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px, 100vw);
+    height: 70vh;
+    position: relative;
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(4){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.seperation{
+    height: 7px;
+    background-color: rgb(44, 43, 43);
+}
+.btn{
+    
+   padding:3px 8px; 
+  font-weight: 400;
+   background-color: rgba(248, 243, 243, 0.021);
+   border: 1px solid white;
+   border-radius: 4px;
+   cursor: pointer;
+   color: white;
+}
+.btn-red{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.main input{
+    padding:7px 101px 8px 14px;
+    color: white;
+    
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7); 
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.sec-img img{
+    width: 32vw;
+    position: relative;
+    z-index: 25;
+}
+.sec-img{
+    position: relative;
+}
+.sec-img video{
+    position: absolute;
+    top: 35pxpx;
+    right: 0;
+    
+}
+.first div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size: 20px;
+    
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+.second div{
+    display: flex;
+    flex-direction: column;
+}
+.second > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.second > div :nth-child(2){
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.second > div :nth-child(3){
+    font-size: 20px;
+    
+}
+
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    
+}
+.sec-img img{
+    width: 40vw;
+    position: relative;
+    z-index: 25;
+    
+}
+.sec-img{
+    position: relative;
+    
+}
+.sec-img video{
+    position: absolute;
+    
+    top: 51px;
+    right: 0;
+    
+    
+}
+.third div{
+    display: flex;
+    flex-direction: column;
+}
+.third > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.third > div :nth-child(2){
+    font-size: 20px;
+    
+}
+
+
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    
+}
+.fourth div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fourth > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.fourth > div :nth-child(2){
+    font-size: 20px;
+    
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    
+}
+.faq-box{
+    display: flex;
+    background-color: rgb(43, 41, 41);
+    padding: 24px;
+    max-width: 60vw;
+    margin:34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 1s ease-out;
+    
+}
+.faq :hover{
+    
+    background-color: #414141;
+}
+footer{
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
